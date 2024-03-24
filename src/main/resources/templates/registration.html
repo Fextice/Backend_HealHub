@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration - Online Doctor Appointment System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Registration</h1>
+</header>
+<main>
+  <form action="/register" method="post">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="tel" name="phone" placeholder="Phone">
+    <input type="text" name="address" placeholder="Address">
+    <select name="userType" required>
+      <option value="Patient">Patient</option>
+      <option value="Doctor">Doctor</option>
+    </select>
+    <input type="text" name="specialty" placeholder="Specialty (for doctors)">
+    <button type="submit">Register</button>
+  </form>
+  <p>Already have an account? <a href="login.html">Login</a></p>
+</main>
+<footer>
+  <p>&copy; 2022 Online Doctor Appointment System</p>
+</footer>
+</body>
+</html>

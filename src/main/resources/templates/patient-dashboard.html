@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Patient</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Welcome to Your Dashboard, [Patient Name]</h1>
+</header>
+<main>
+    <section>
+        <h2>Your Appointments</h2>
+        <!-- Display a list of appointments -->
+        <ul>
+            <li>Appointment 1</li>
+            <li>Appointment 2</li>
+            <!-- Add more appointments dynamically -->
+        </ul>
+    </section>
+    <section>
+        <h2>Schedule New Appointment</h2>
+        <!-- Appointment scheduling form -->
+        <form action="/schedule-appointment" method="post">
+            <!-- Form fields -->
+            <button type="submit">Schedule Appointment</button>
+        </form>
+    </section>
+    <section>
+        <h2>Profile Information</h2>
+        <!-- Display patient's profile information -->
+        <p>Username: [Username]</p>
+        <p>Email: [Email]</p>
+        <p>Phone: [Phone]</p>
+        <p>Address: [Address]</p>
+        <!-- Option to edit profile -->
+        <a href="edit-profile.html">Edit Profile</a>
+    </section>
+    <section>
+        <a href="logout.html">Logout</a>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2022 Online Doctor Appointment System</p>
+</footer>
+</body>
+</html>

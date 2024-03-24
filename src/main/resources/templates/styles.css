@@ -1,0 +1,205 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Page-specific styles */
+
+/* admin-dashboard.html */
+.admin-dashboard h2 {
+    color: #333;
+}
+
+.admin-dashboard button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* appointment-details.html */
+.appointment-details section {
+    margin-bottom: 20px;
+}
+
+.appointment-details button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* confirmation.html */
+.confirmation p {
+    margin-bottom: 10px;
+}
+
+/* doctor-dashboard.html */
+.doctor-dashboard h2 {
+    color: #333;
+}
+
+.doctor-dashboard button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* index.html */
+#index h2 {
+    color: #333;
+}
+
+#index form {
+    margin-bottom: 20px;
+}
+
+#index input[type="text"],
+#index input[type="password"],
+#index input[type="email"],
+#index input[type="tel"],
+#index select,
+#index textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#index button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* login.html */
+.login h2 {
+    color: #333;
+}
+
+.login form {
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* patient-dashboard.html */
+.patient-dashboard h2 {
+    color: #333;
+}
+
+.patient-dashboard button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* registration.html */
+.registration h2 {
+    color: #333;
+}
+
+.registration form {
+    margin-bottom: 20px;
+}
+
+.registration input[type="text"],
+.registration input[type="password"],
+.registration input[type="email"],
+.registration input[type="tel"],
+.registration select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.registration button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* schedule-appointment.html */
+.schedule-appointment h2 {
+    color: #333;
+}
+
+.schedule-appointment form {
+    margin-bottom: 20px;
+}
+
+.schedule-appointment select,
+.schedule-appointment input[type="date"],
+.schedule-appointment input[type="time"],
+.schedule-appointment textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.schedule-appointment button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
